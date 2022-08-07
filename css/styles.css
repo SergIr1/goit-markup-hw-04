@@ -600,12 +600,14 @@ color: var(--white-text-color);
     padding: 6px 22px;
     min-width: auto;
     box-shadow: var(--secondory-card-shadow);
+    border: none;
 }
 
 .btn-filtre:hover,
 .btn-filtre:focus {
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
+    box-shadow: var(--secondory-card-shadow);
 }
 
 .filtre .filtre-button + .filtre-button{
